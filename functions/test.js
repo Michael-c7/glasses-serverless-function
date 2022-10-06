@@ -1,6 +1,6 @@
 // domain/.netlify/functions/1-hello
 
-const guy = {name:'bobo',age:34}
+const testData = {name:'bob',age:34,alive:true}
 
 exports.handler = async (event, context) => {
     return {
@@ -10,7 +10,7 @@ exports.handler = async (event, context) => {
         },
         statusCode:200,
         // body has to be a string, can stringify an object,arrays,ect...
-        body:JSON.stringify(guy)
+        body:JSON.stringify(testData)
 
     }
 }

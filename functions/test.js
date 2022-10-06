@@ -1,4 +1,4 @@
-// domain/.netlify/functions/1-hello
+// domain/.netlify/functions/test
 
 const testData = {name:'bob',age:34,alive:true}
 
